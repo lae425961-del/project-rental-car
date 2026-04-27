@@ -1,0 +1,88 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel World</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+     <div id="menu"></div>
+
+<script>
+fetch("menu.html")
+.then(response => response.text())
+.then(data => {
+    document.getElementById("menu").innerHTML = data;
+});
+</script>
+
+    <section class="hero">
+        <h1>Welcome To Travel World</h1>
+        <p>ເລືອກປະເທດທີ່ທ່ານຕ້ອງການເດີນທາງ</p>
+    </section>
+
+    <!-- Country Cards -->
+    <section class="container">
+
+        <div class="card">
+            <img src="USA Photo/ທຸງ.jpeg">
+            <a href="USA.html">USA</a>
+        </div>
+
+        <div class="card">
+            <img src="France Photo/WhatsApp Image 2025-05-08 at 20.17.54.jpeg">
+            <a href="France.html">France</a>
+        </div>
+
+        <div class="card">
+            <img src="Thai Photo/ທຸງ.jpeg">
+            <a href="Thailand.html">Thailand</a>
+        </div>
+
+        <div class="card">
+            <img src="China Photo/ທຸງ.jpeg">
+            <a href="China.html">China</a>
+        </div>
+
+        <div class="card">
+            <img src="English Photo/ທຸງ.jpeg">
+            <a href="UK.html">United Kingdom</a>
+        </div>
+
+        <div class="card">
+            <img src="Italy Photo/ທຸງ.jpeg">
+            <a href="Italy.html">Italy</a>
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <h2>ຕິດຕໍ່ສອບຖາມຂໍ້ມູນເພີ່ມເຕີມ</h2>
+        <p>📞 020 xxxxxx</p>
+        <p>📘 FB: </p>
+        <p>📸 Instagram ຕາມລິ້ງຂ້າງລຸ່ມ</p>
+
+        <div class="social">
+            <a href="">
+                <img src="photo ຮູບພາບ/1.jpeg">
+            </a>
+
+            <a href="">
+                <img src="photo ຮູບພາບ/2.jpeg">
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>

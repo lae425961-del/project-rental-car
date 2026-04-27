@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    font-family: "Noto Sans Lao", sans-serif;
+}
+
+body{
+    margin: 0;
+    background: #f0f3fa;
+}
+
+header{
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+nav {
+    position:relative;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #395886;
+}
+
+.logo img {
+    width: 80px;
+    height: 60px;
+    border-radius: 60%;
+    padding: 5px 15px;
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.container-usa {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.teh4 {
+    margin-top: 10px;
+    height: 300px;
+}
+
+.zz {
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(55, 0, 255, 0.3);
+}
+
+.zz p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  padding: 16px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+.card h3 {
+  margin: 0;
+  color: #1c9a9b;
+  font-size: 18px;
+}
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+}
+
+.container-usa1 {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+    .uu {
+      height: 250px;
+      background-color: white;
+      border-radius: 15px;
+      display: flex;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .uu img {
+      width: 200px;
+      height: 200px;
+      margin-top: 20px;
+      border-radius: 10px;
+      margin-left: 20px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .card-date {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 5px;
+    }
+
+    .card-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 5px 0;
+      margin-top: -100px;
+      color: gold;
+    }
+
+    .card-description {
+      font-size: 18px;
+      font-weight: bold;
+      color: #202020;
+    }

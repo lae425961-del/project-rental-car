@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    font-family: "Noto Sans Lao", sans-serif;
+}
+
+body{
+    margin: 0;
+    background: #f0f3fa;
+}
+
+header{
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+nav {
+    position:relative;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #395886;
+}
+
+.logo img {
+    width: 80px;
+    height: 60px;
+    border-radius: 60%;
+    padding: 5px 15px;
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+nav ul li a:hover{
+    background: #686868;
+    color: #fff;
+    transition: all 3s;
+}
+
+.container {
+    width: 100%;
+    max-width: 1050px;
+    margin: 10px auto;
+}
+
+/* Row-1 */
+.row-1 {
+    display: flex;
+}
+.row-1 img {
+    width: 280px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+/* Container USA */
+.usa {
+    width: 330px;
+    height: 260px;
+    background: #e7e5e5;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #395886;
+    text-decoration: none;
+}
+
+/* Container FN */
+.fn {
+    width: 330px;
+    height: 260px;
+    background: #e7e5e5;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #395886;
+    text-decoration: none;
+}
+/* Container thai */
+.Thai {
+    width: 330px;
+    height: 260px;
+    background: #e7e5e5;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #395886;
+    text-decoration: none;
+}
+
+/* Row-2 */
+.row-2 {
+    display: flex;
+}
+.row-2 img {
+    width: 280px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+/* Container china */
+.china {
+    width: 330px;
+    height: 260px;
+    background: #e7e5e5;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #395886;
+    text-decoration: none;
+}
+/* Container uk */
+.uk {
+    width: 330px;
+    height: 260px;
+    background: #e7e5e5;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #395886;
+    text-decoration: none;
+}
+/* Container italy */
+.italy {
+    width: 330px;
+    height: 260px;
+    background: #e7e5e5;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #395886;
+    text-decoration: none;
+}
+
+.teh {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gg image {
+     display: flex;
+}
